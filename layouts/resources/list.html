@@ -1,0 +1,15 @@
+{{ define "main" }}
+            {{ $dateFormat := $.Site.Params.dateFormat | default "2 January 2006" }}
+
+<h1>{{ .Title }}</h1>
+
+            {{.Content}}
+
+            <h3>Memos</h3>
+            <ul>
+            {{ range where .Site.Pages "Params.kind" "memo"}}
+              <li><a href="{{ .Permalink}}">{{ .Title}}</a> ({{.Date.Format $dateFormat}})</li>
+            {{ end }}
+            </ul>
+
+{{ end }}

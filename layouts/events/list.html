@@ -1,0 +1,20 @@
+{{ define "main" }}
+            {{ $dateFormat := $.Site.Params.dateFormat | default "2 January 2006" }}
+
+<h1>{{ .Title }}</h1>
+            {{.Content}}
+
+            <h3>Upcoming</h3>
+            <ul>
+            {{ range  where (where .Site.Pages.ByDate "Params.kind" "roundtable") "Params.date" "gt" now}}
+              <li><a href="{{ .Permalink}}">{{ .Title}}</a> ({{.Date.Format $dateFormat}})</li>
+            {{ end }}
+            </ul>
+
+                  <h3>Past</h3>
+        <ul>
+        {{ range  where (where .Site.Pages.ByDate.Reverse "Params.kind" "roundtable") "Params.date" "<" now}}
+          <li><a href="{{ .Permalink}}">{{ .Title}}</a> ({{.Date.Format $dateFormat}})</li>
+        {{ end }}
+
+{{ end }}
