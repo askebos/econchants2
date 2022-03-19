@@ -1,7 +1,6 @@
 ---
 title: "Enchantment in theology and scholarship on magic"
 date: 2022-02-24
-draft: false
 category: resources
 kind: memo
 author: "Kristof Smeyers"
