@@ -5,6 +5,8 @@ time: "15:00 - 17:00 GMT"
 publishDate: 2022-03-18
 category: events
 kind: roundtable
+link: https://www.eventbrite.co.uk/e/enchantment-in-the-history-of-capitalism-roundtable-2-tickets-243101793007
+summary: "A roundtable with Professor David Morgan and Professor Carrie Tirado Bramen. This event will be held on Zoom."
 ---
 
 

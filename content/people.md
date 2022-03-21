@@ -25,6 +25,8 @@ showActions:    false
 
 **[Usva Seregina](https://usvaseregina.com/)** (PhD) is a visual artist and an interdisciplinary researcher, with their work encompassing such fields as consumer research, sociology, anthropology, performance studies, and art education. Seregina is actively developing art-based and performance-based research methodologies and has previously published a book on the role of fantasy in consumer culture.
 
+**[Kristof Smeyers](https://www.uantwerpen.be/en/staff/kristof-smeyers_16210/)** is a Postdoctoral Fellow at the Ruusbroec Institute, University of Antwerp. His research interests are magic, the supernatural and the occult, and their connections to the histories of religion, science and folklore, as well as their historiography and their archive history.
+
 **[James Taylor](https://www.lancaster.ac.uk/history/about/people/james-c-taylor)** is a Senior Lecturer in History at Lancaster University. He has written widely on the development of the corporate economy in Britain since 1720, particularly from cultural and legal perspectives. His third book is *Boardroom Scandal: The Criminalization of Company Fraud in Nineteenth-Century Britain* (2013).
 
 **[Daniel Pick](https://www.bbk.ac.uk/our-staff/profile/8005508/daniel-pick)**  is Professor of History and a psychoanalyst, and is leading a research group at Birkbeck entitled *Hidden Persuaders: Brainwashing, Culture, Clinical Knowledge and the Cold War Human Sciences, c. 1950-1990*.

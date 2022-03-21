@@ -5,6 +5,8 @@ time: "14:30 - 17:00 GMT"
 publishDate: 2022-03-18
 category: events
 kind: roundtable
+link: resources/roundtable-2022-02-24
+summary: "A roundtable with Professor Owen Davies and Professor Jason Ānanda Josephson Storm."
 ---
 
 ### Speakers

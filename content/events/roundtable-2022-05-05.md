@@ -5,6 +5,8 @@ time: "16:30 - 19:00 GMT"
 publishDate: 2022-03-18
 category: events
 kind: roundtable
+link: https://www.eventbrite.co.uk/e/enchantment-in-the-history-of-capitalism-roundtable-3-tickets-243104290477
+summary: "A roundtable with Professor Jean Comaroff, Professor Jens Beckert, and Professor Robert Kozinets. This event will be held on Zoom."
 ---
 
 This event will be held on **Zoom** - please register on [Eventbrite to attend](https://www.eventbrite.co.uk/e/enchantment-in-the-history-of-capitalism-roundtable-3-tickets-243104290477)

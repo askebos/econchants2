@@ -36,12 +36,12 @@ publishDir = "docs"
 
   [[menu.nav]]
     weight = 2
-    identifier = "events"
-    name = "Events"
+    identifier = "roundtables"
+    name = "Roundtables"
     url = "/events"
 
     [[menu.nav]]
-      weight = 2
+      weight = 3
       identifier = "resources"
       name = "Resources"
       url = "/resources"

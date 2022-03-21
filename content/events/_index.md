@@ -1,10 +1,8 @@
 ---
-title: "Events"
+title: "Roundtables"
 date: 2022-03-17T08:23:44Z
 #thumbnailImage: //example.com/image.jpg
 ---
-
-## Roundtables
 
 At the moment, our activities are focused on running a series of roundtables to converge discussion around a set of leading texts that represent existing conceptual and historical scholarship on enchantment in modernity, from the fields of theology, anthropology, the history of science, literature and art, philosophy, marketing and business.
 
