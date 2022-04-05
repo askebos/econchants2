@@ -31,4 +31,4 @@ summary: "A roundtable with Professor David Morgan and Professor Carrie Tirado B
 
 </div>
 
-{{< chat cactus-comments-roundtable2 >}}
+{{< chat comments-roundtable2 >}}
