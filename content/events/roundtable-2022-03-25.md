@@ -5,12 +5,9 @@ time: "15:00 - 17:00 GMT"
 publishDate: 2022-03-18
 category: events
 kind: roundtable
-link: https://www.eventbrite.co.uk/e/enchantment-in-the-history-of-capitalism-roundtable-2-tickets-243101793007
-summary: "A roundtable with Professor David Morgan and Professor Carrie Tirado Bramen. This event will be held on Zoom."
+link: ../events/roundtable-2022-03-25
+summary: "A roundtable with Professor David Morgan and Professor Carrie Tirado Bramen."
 ---
-
-
-This event will be held on **Zoom** - please register on [Eventbrite to attend](https://www.eventbrite.co.uk/e/enchantment-in-the-history-of-capitalism-roundtable-2-tickets-243101793007)
 
 ### Speakers
 [Professor David Morgan](https://scholars.duke.edu/person/david.morgan), Duke University
@@ -26,4 +23,10 @@ This event will be held on **Zoom** - please register on [Eventbrite to attend](
 
 - Paul Crosthwaite, Peter Knight, and Nicky Marsh, ["The Economic Humanities and the History of Financial Advice,"](https://academic.oup.com/alh/article/31/4/661/5555876) *American Literary History*, vol. 31, no. 4, pp. 661–686.
 
-(Note: readings are circulated upon [registration](https://www.eventbrite.co.uk/e/enchantment-in-the-history-of-capitalism-roundtable-2-tickets-243101793007))
+
+### Memo
+{{% author %}} By [Kristof Smeyers](https://www.uantwerpen.be/en/staff/kristof-smeyers_16210/) {{% /author %}}
+
+<div class = "readable">
+
+</div>

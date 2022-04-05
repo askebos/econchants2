@@ -67,11 +67,10 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 0.5rem;
-  color: rgba(3,79,102,255);
-  font-weight:bold;
+  color: rgba(17,35,49,255);
   font-size:1.1em;
   letter-spacing: 0.05em;
-  background-color: rgba(161,186,187,0.8);
+  background-color: rgba(161,186,187,1);
   border-color: rgba(255, 255, 255, 0.05);
   border-style: solid;
   border-width: 2px;
@@ -110,19 +109,19 @@ a {
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
     url('https://github.com/askebos/enchantments/blob/a8f2e2fab4ed104f8336a5d983e715c137525386/assets/pexels-anjana-c-674010.jpg?raw=true');
   background-size: cover;
   box-shadow:inset 0em -5px rgba(255, 255, 255, 0.4) ;
 
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 5rem 5rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 3rem 3rem;
   }
 
   @include small {
@@ -370,7 +369,7 @@ a {
 }
 
 .pointing {
-  background-image: url("");
+  background-image: url("../images/manicule.png");
   background-size: 4em;
   background-position: left center;
   background-repeat: no-repeat;
@@ -379,10 +378,15 @@ a {
 margin-bottom:1.5em;
     position: relative;}
 
+h1.project-name{
+  opacity:0.7;
+}
+
 h1{
   opacity:0.4;
   text-transform: capitalize;
 }
+
 
 .events li{
 display: block;
@@ -397,4 +401,22 @@ padding-left:0.6em;
 .events span.emphasis{
   color:#191a49;
   margin-right: 0.5em;
+}
+
+nav {
+  padding-top:1em;
+}
+
+.readable{
+  margin-left: 1rem;
+  margin-right:1rem;
+  line-height:2em;
+}
+
+.author {
+  color:grey;
+font-style: italic;}
+
+figcaption{
+  font-size:0.8rem;
 }
