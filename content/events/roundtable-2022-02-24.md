@@ -176,4 +176,4 @@ historical practices and ideas.
     *Magical capitalism: enchantment, spells, and occult practices in
     contemporary economies* (London: Palgrave Macmillan, 2018), v.
 
-{{< chat comments-roundtable1 >}}
+{{< chat comments-roundtable-1 >}}
