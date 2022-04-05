@@ -74,5 +74,5 @@ publishDir = "docs"
         clearReading = true
 
         # Footer text, can be markdown
-        footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Hosted by [GitHub](https://github.com/). Photo by [Anjana C](https://www.pexels.com/photo/green-and-blue-peacock-feather-674010/)."
+        footer = "This website was made with [Hugo](https://gohugo.io/), is themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme), and is hosted by [GitHub](https://github.com/). Peacock feathers are by [Anjana C](https://www.pexels.com/photo/green-and-blue-peacock-feather-674010/)."
         custom_css = ["css/style.css"]

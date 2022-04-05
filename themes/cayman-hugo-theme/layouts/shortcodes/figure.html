@@ -1,30 +1,28 @@
-{{ $img := .Get "img" }}
-{{ $caption := .Get "caption" }}
-{{ $command := .Get "command" }}
-{{ $options := .Get "options" }}
-
-{{ $original := .Page.Resources.GetMatch (printf "*%s*" $img) }}
-{{ $new := "" }}
-
-{{ if eq $command "Fit" }}
-  {{ $new = $original.Fit $options }}
-{{ else if eq $command "Fill" }}
-  {{ $new = $original.Fill $options }}
-{{ else if eq $command "Resize" }}
-  {{ $new = $original.Resize $options }}
-{{ else if eq $command "Original" }}
-  {{ $new = $original }}
-{{ else }}
-  {{ errorf "Invalid image processing command: Must be one of Fit, Fill, Resize, Original." }}
-{{ end }}
-
-{{ $captionId := printf "caption-%s" ($caption | md5) }}
-
-<figure role="group" aria-describedby="{{ $captionId }}">
-  <a href="{{ $original.Permalink }}" class="">
-    <img src="{{ $new.Permalink }}">
-  </a>
-  <figcaption id="{{ $captionId }}">
-    {{ $caption | markdownify }}
-  </figcaption>
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end -}}
+    <img src="{{ .Get "src" }}"
+         {{- if or (.Get "alt") (.Get "caption") }}
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    /><!-- Closing img tag -->
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
+    {{- end }}
 </figure>

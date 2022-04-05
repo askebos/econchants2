@@ -5,8 +5,10 @@ time: "14:30 - 17:00 GMT"
 publishDate: 2022-03-18
 category: events
 kind: roundtable
+doc: memo
 link: ../events/roundtable-2022-02-24
 summary: "A roundtable with Professor Owen Davies and Professor Jason Ānanda Josephson Storm"
+comments: roundtable-1
 ---
 
 ### Speakers
@@ -26,7 +28,7 @@ summary: "A roundtable with Professor Owen Davies and Professor Jason Ānanda Jo
 ### Memo
 {{% author %}} By [Kristof Smeyers](https://www.uantwerpen.be/en/staff/kristof-smeyers_16210/) {{% /author %}}
 
-{{% readable %}}
+<div class = "readable">
 
 'Is capitalism enchanted?' is a question that, perhaps, no longer bears
 asking. Since the economic crisis that begun in 2007-2008, opinion
@@ -117,13 +119,8 @@ products such as talismans. Makers of
 as Davies for instance shows, profited from advances in print and
 publishing industries.
 
-<figure>
-  <img src="../../images/roundtable1-figure1.jpg"  />
-  <figcaption>
-  A facsimile of the Necronomicon for sale on eBay for €175.00
-  </figcaption>
-</figure>
-
+{{< figure src ="../images/memos/roundtable1-figure1.jpg"
+caption = "A facsimile of the Necronomicon for sale on eBay for €175.00" >}}
 
 The 'magical marketplace' therefore also always intersects with other
 parts of society that historians like to talk about in terms of
@@ -168,12 +165,10 @@ other disciplines with different methodologies, it will be interesting
 to see how this conceptual versatility is grounded in contingent,
 historical practices and ideas.
 
-{{% / readable %}}
-
 [^1]: Sudhir Alladi Venkatesh, *Off the books: the underground economy
     of the urban poor* (Cambridge, MA: Harvard University Press, 2006).
     'Foreword', in Brian Moeran and Timothy de Waal Malefyt, eds.,
     *Magical capitalism: enchantment, spells, and occult practices in
     contemporary economies* (London: Palgrave Macmillan, 2018), v.
 
-{{< chat comments-roundtable-1 >}}
+</div>

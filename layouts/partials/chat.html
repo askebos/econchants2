@@ -8,6 +8,6 @@ initComments({
   defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
   serverName: "cactus.chat",
   siteName: "economic-enchantments",
-  commentSectionId: "{{ index .Params 0 }}"
+  commentSectionId: "{{ .Params.comments }}"
 })
 </script>
