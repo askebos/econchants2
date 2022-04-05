@@ -26,7 +26,7 @@ summary: "A roundtable with Professor Owen Davies and Professor Jason Ānanda Jo
 ### Memo
 {{% author %}} By [Kristof Smeyers](https://www.uantwerpen.be/en/staff/kristof-smeyers_16210/) {{% /author %}}
 
-<div class = "readable">
+{{% readable %}}
 
 'Is capitalism enchanted?' is a question that, perhaps, no longer bears
 asking. Since the economic crisis that begun in 2007-2008, opinion
@@ -168,7 +168,7 @@ other disciplines with different methodologies, it will be interesting
 to see how this conceptual versatility is grounded in contingent,
 historical practices and ideas.
 
-</div>
+{{% / readable %}}
 
 [^1]: Sudhir Alladi Venkatesh, *Off the books: the underground economy
     of the urban poor* (Cambridge, MA: Harvard University Press, 2006).
